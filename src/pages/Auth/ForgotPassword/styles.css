@@ -1,0 +1,42 @@
+
+
+.forgot-email {
+  padding: 10px 22px 10px 22px;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #ffffff26;
+  outline: none;
+  width: 100%;
+}
+
+.forgot-reset {
+  cursor: pointer;
+  width: 100%;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #ffffff !important;
+  background: #0079ff;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.forgot-reset a{
+  color: white;
+} 
+
+.forgot-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../../../public/Group.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}

@@ -1,0 +1,31 @@
+.f-nav-pages {
+  color: #9a9a9a;
+  /* color: red; */
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.f-color-pages {
+  color: #0079ff;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #1d1d1d;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.nav-s-hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nav-s-hr .MuiDivider-root {
+  border-color: rgb(255 255 255 / 12%);
+}
+.nav-ss-hr .MuiDivider-root {
+  border-color: rgb(255 255 255 / 12%);
+}
+.n-blue{
+  color: blue!important;
+}

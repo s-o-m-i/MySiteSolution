@@ -1,0 +1,11 @@
+/* table{
+    border: none!important;
+} */
+td, th {
+    border: 1px solid #dddddd;
+    border: none!important;
+    text-align: left;
+    padding: 8px;
+    /* text-align: center; */
+  }
+  

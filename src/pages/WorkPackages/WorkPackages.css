@@ -1,0 +1,23 @@
+.work-main-text{
+    font-size: 36px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    /* width: 55%; */
+}
+.w-hero-section{
+    background-color: #131313;
+}
+.w-hero-top-bar{
+    /* background-color: red; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+.w-input-style{
+    background-color: black;
+    width: 50%;
+}
+.text-stable{
+    /* white-space: nowrap; */
+    width: 100%!important;
+}

@@ -1,0 +1,55 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@700&display=swap');
+
+/* Import custom font from font folders */
+
+
+@font-face {
+  font-family: "Nexa";
+  src: url("../public/fonts/Nexa-ExtraLight.ttf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NexaBold";
+  src: url("../public/fonts/Nexa-Heavy.ttf");
+  font-style: normal;
+}
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background-color: #131313;
+}
+
+
+a {
+  text-decoration: none;
+  font-family: "Bai Jamjuree", sans-serif  !important; 
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Bai Jamjuree", sans-serif !important;
+}
+
+
+.NexaFont {
+  font-family: "Nexa" !important;
+}
+
+.NexaBoldFont {
+  font-family: "NexaBold" !important;
+}
+
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

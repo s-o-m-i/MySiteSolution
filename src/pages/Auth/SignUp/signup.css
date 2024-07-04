@@ -1,0 +1,119 @@
+
+
+
+
+.l-maskgroup {
+  width: 100%;
+  height: 100%;
+  margin-top: -100px;
+}
+.s-email {
+  padding: 10px 22px 10px 22px;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white!important;
+  border: 1px solid #ffffff26;
+  outline: none;
+  width: 100%;
+  line-height: 21.22px;
+}
+.s-signin {
+  cursor: pointer;
+  width: 100%;
+  font-family: 'Bai Jamjuree', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #ffffff;
+  background: #0079ff;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+.input-style{
+  color: white !important;
+}
+
+.s-signup {
+  text-decoration: none;
+  color: orange;
+}
+
+.s-google {
+  font-size: 16px;
+  color: #ffffff;
+  background: transparent;
+  text-align: center;
+  padding: 12px 0px;
+  border-radius: 10px;
+  border: 1px solid #ffffff26;
+  cursor: pointer;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.s-right {
+  background-color: #131313;
+  width: 45%;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+@media screen and (max-width: 600px) {
+  .s-right {
+    width: 100%;
+    padding: 20px;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .section {
+    width: 100% !important;
+  }
+  .vector-bg {
+    padding-left: 10px;
+  }
+}
+.signup-terms {
+  cursor: pointer;
+  color: #fff;
+  /* // opacity: 1 !important; */
+}
+
+
+.section {
+  width: 55%;
+  height: 100vh;
+  overflow: hidden;
+  /* background:linear-gradient(121deg,#2559cd 9%,#1c4cc8 80%,#0f38c1 41%) ; */
+  /* background: rgb(61, 47, 255); */
+  /* background: rgb(2, 0, 36);
+  background-image: linear-gradient(
+    34deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 34%,
+    rgba(0, 78, 255, 1) 100%
+  ); */
+  position: relative;
+}
+.vector-bg {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  /* top: 0; */
+  /* left: 0; */
+  background-image: url("../../../../public/Group.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding-left: 90px;
+
+  z-index: 0;
+}

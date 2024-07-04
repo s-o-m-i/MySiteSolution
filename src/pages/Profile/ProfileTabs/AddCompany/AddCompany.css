@@ -1,0 +1,57 @@
+.input-style {
+  /* //  padding: 10px 22px 10px 22px; */
+  border-radius: 10px !important;
+  background-color: transparent;
+  color: white !important;
+  border: 1px solid #ffffff26;
+  outline: none;
+  width: 100%;
+}
+.l-signin {
+  cursor: pointer;
+  width: 100%;
+  font-family: "Bai Jamjuree", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #ffffff;
+  background: #0079ff;
+  text-align: center;
+  padding: 12px 0;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.b-vector-bg {
+  width: 100%;
+  min-height: 100vh !important;
+  overflow-y: auto;
+  position: absolute;
+  /* top: 0; */
+  /* left: 0; */
+  background-image: url("../../../../../public/Group.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #131313;
+
+  z-index: 0;
+  /* opacity: 0.4; */
+
+  /* // background: 'rgb(2, 0, 36)'; */
+
+  /* //       backgroundImage: */
+  /* //         'linear-gradient(34deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 34%, rgba(0, 78, 255, 1) 100%)', */
+}
+
+
+.selectedImage {
+  display: flex;
+  background: #131313;
+  width: 80%;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}

@@ -1,0 +1,15 @@
+{
+  // Extend the default configuration for React applications
+  "extends": "react-app",
+
+  // Define global variables, ensuring React is marked as readonly
+  "globals": {
+    "React": "readonly"
+  },
+
+  // Customize specific ESLint rules for this project
+  "rules": {
+    // Disable the rule that enforces returning a value from a promise executor
+    "no-promise-executor-return": "off"
+  }
+}
